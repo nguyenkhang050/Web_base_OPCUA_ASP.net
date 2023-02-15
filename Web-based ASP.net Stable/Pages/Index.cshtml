@@ -1,0 +1,180 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/datatables/css/jquery.dataTables.min.css" />
+
+<link href="~/fontawesome/css/all.css" rel="stylesheet" />
+<script src="~/bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+<script src="~/bootstrap/js/popper.min.js"></script>
+<script src="~/bootstrap/js/bootstrap.min.js"></script>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<section>
+    <div  id="first-section">
+        <div class="row" id="first-row">
+        </div>
+    </div>
+</section>
+<br />
+ <section>
+    <div class="container-fuild">
+        <div class="row">
+            <div class="col-md-2" style="display: inline-block">
+                <div class="card">
+                    <center class="cartesianCenter">
+                        <span class="cartesian">X: <strong><span id="xText">0</span></strong></span><br>
+                        <span class="cartesian">Y: <strong><span id="yText">100</span></strong></span><br>
+                        <span class="cartesian">Z: <strong><span id="zText">50</span></strong></span><br>
+                        <span class="cartesian">Roll: <strong><span id="rollText">180</span></strong></span><br>
+                        <span class="cartesian">Pitch: <strong><span id="pitchText">0</span></strong></span><br>
+                        <span class="cartesian">Yaw: <strong><span id="yawText">163</span></strong></span><br>
+                    </center>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <center>
+                        <span class="joint">J1 <strong><span id="j1Text">0</span></strong></span><br>
+                        <span class="joint">J2: <strong><span id="j2Text">0</span></strong></span><br>
+                        <span class="joint">J3: <strong><span id="j3Text">50</span></strong></span><br>
+                        <span class="joint">J4: <strong><span id="j4Text">180</span></strong></span><br>
+                    </center>
+                </div>
+            </div>
+            <div class="col-md-3" style="border-style:solid">
+                <div class="card" style="border-style:none">
+                    <center>
+                        <div>
+                            <button class="button">Servo ON</button><br>
+                            <button class="button">Servo OFF</button>
+                        </div>
+                        <br />
+                        <div class="selectdiv">
+                            <label>
+                                <select class="select-content" style="width: 210px;">
+                                    <option selected> Choose Coordinates </option>
+                                    <option>Joint Coordinates</option>
+                                    <option>Cartesian Coordinates</option>
+                                    <option>Tool Coordinates</option>
+                                    <option>User Coordinate</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="selectdiv">
+                            <label>
+                                <select class="select-content" style="width: 210px;">
+                                    <option selected> Choose Tool </option>
+                                    <option>Joint Coordinates</option>
+                                    <option>Cartesian Coordinates</option>
+                                    <option>Tool Coordinates</option>
+                                    <option>User Coordinate</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="selectdiv">
+                            <label>
+                                <select class="select-content" style="min-width: 210px;">
+                                    <option selected> Choose Speed </option>
+                                    <option>Low</option>
+                                    <option>Medium</option>
+                                    <option>High</option>
+                                    <option>Top</option>
+                                </select>
+                            </label>
+                        </div>
+                    </center>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="card" style="border-style: solid;">
+                    <label>Jog</label>
+                    <center class="jog">
+                        <div>
+                            <button class="button-jog">J1-</button>
+                            <button class="button-jog">J1+</button><br>
+                            <button class="button-jog">J2-</button>
+                            <button class="button-jog">J2+</button><br>
+                            <button class="button-jog">J3-</button>
+                            <button class="button-jog">J3+</button><br>
+                            <button class="button-jog">J4-</button>
+                            <button class="button-jog">J4+</button><br>
+                            <button class="button-jog">J5-</button>
+                            <button class="button-jog">J5+</button><br>
+                            <button class="button-jog">J6-</button>
+                            <button class="button-jog">J6+</button><br>
+
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    const statusBar = [
+        {
+            name: "Tool\n Number",
+            value: 0,
+            img: "imgs/tool.png"
+        },
+        {
+            name: "Jogging Speed",
+            value: 0,
+            img: "imgs/speed.png"
+        },
+        {
+            name: "Coordinate System",
+            value: 0,
+            img: "imgs/coordinate.png"
+        },
+        {
+            name: "Servo Status",
+            value: 0,
+            img: "imgs/servo_status.png"
+        },
+        {
+            name: "System Status",
+            value: 0,
+            img: "imgs/system_status.png"
+        },
+        {
+            name: "Lock/Unlock Controller",
+            value: 0,
+            img: "imgs/lock.png"
+        },
+        {
+            name: "Mode",
+            value: 0,
+            img: "imgs/teach.png"
+        },
+        {
+            name: "Security Level",
+            value: 0,
+            img: "imgs/security.png"
+        },
+    ]
+    const main = document.getElementById("first-row");
+    statusBar.forEach(element => {
+        const div_card = document.createElement('div');
+        div_card.innerHTML = `
+                <center>
+                    <div class="col">
+                        <center>
+                            <div class="card" style="width: 9rem; height: 7rem">
+                                    <center><img src=${element["img"]} class="thumbnail"/></center>
+                                <h3 style="font-size: 16px">${element["name"]}</h3>
+                            </div>
+                        </center>
+                        </div>
+                </center>
+    `
+        main.appendChild(div_card);
+    })
+</script>

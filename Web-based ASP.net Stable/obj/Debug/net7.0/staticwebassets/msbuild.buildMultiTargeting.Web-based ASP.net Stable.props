@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Web-based ASP.net Stable.props" />
+</Project>

@@ -1,0 +1,42 @@
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\appsettings.json
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\Web-based ASP.net Stable.staticwebassets.runtime.json
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\Web-based ASP.net Stable.exe
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\Web-based ASP.net Stable.deps.json
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\Web-based ASP.net Stable.runtimeconfig.json
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\Web-based ASP.net Stable.dll
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\Web-based ASP.net Stable.pdb
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\Opc.UaFx.Client.dll
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\System.Management.dll
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\System.ServiceModel.Primitives.dll
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\System.ServiceModel.dll
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\Web-based ASP.net Stable.csproj.AssemblyReference.cache
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\Web-based ASP.net Stable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\Web-based ASP.net Stable.AssemblyInfoInputs.cache
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\Web-based ASP.net Stable.AssemblyInfo.cs
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\Web-based ASP.net Stable.csproj.CoreCompileInputs.cache
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\Web-based ASP.net Stable.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\Web-based ASP.net Stable.RazorAssemblyInfo.cache
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\Web-based ASP.net Stable.RazorAssemblyInfo.cs
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\staticwebassets\msbuild.Web-based ASP.net Stable.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\staticwebassets\msbuild.build.Web-based ASP.net Stable.props
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Web-based ASP.net Stable.props
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Web-based ASP.net Stable.props
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\scopedcss\bundle\Web-based ASP.net Stable.styles.css
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\scopedcss\projectbundle\Web-based ASP.net Stable.bundle.scp.css
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\Web-based ASP.net Stable.csproj.CopyComplete
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\Web-based ASP.net Stable.dll
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\refint\Web-based ASP.net Stable.dll
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\Web-based ASP.net Stable.pdb
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\Web-based ASP.net Stable.genruntimeconfig.cache
+C:\Users\Khang\source\repos\Web-based ASP.net Stable\Web-based ASP.net Stable\obj\Debug\net7.0\ref\Web-based ASP.net Stable.dll
